@@ -1,0 +1,29 @@
+import pandas as pd
+from gtts import gTTS
+from deep_translator import GoogleTranslator
+
+# Load the cleaned CSV file
+csv_path = r"C:\Users\rupanjana ghosh\Downloads\pythonproject\assignmentrupanjana\Starlink_news_with_sentiment_cleaned.csv"
+df = pd.read_csv(csv_path).head(10)  
+
+# Function to generate Hindi speech from text
+def text_to_speech(text, filename):
+    if pd.isna(text) or text.strip() == "":
+        print("Empty text, skipping TTS.")
+        return
+    
+    # Translate text to Hindi
+    translated_text = GoogleTranslator(source="en", target="hi").translate(text)
+    
+    # Convert translated text to speech
+    tts = gTTS(text=translated_text, lang="hi")
+    tts.save(filename)  
+    print(f"Generated speech for: {filename}")
+
+# Process each summary and save as an MP3 file
+for idx, row in df.iterrows():
+    summary_text = str(row["Summary"])  
+    output_file = f"Summary_{idx+1}.mp3"  
+    text_to_speech(summary_text, output_file)
+
+print("Text-to-Speech conversion completed!")
