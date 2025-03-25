@@ -28,7 +28,8 @@
 6. **Run the Streamlit Application:**
    ```sh
    streamlit run main.py
-   ```
+   ``
+
 
 ---
 
