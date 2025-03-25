@@ -121,7 +121,7 @@ Step-by-Step Deployment
 
 *Visibility: Public*
 
-**Upload files:**
+2.**Upload files:**
 Method: Web Interface
 
 Go to your Space → "Files and versions" → "Add file":
@@ -137,7 +137,7 @@ Go to your Space → "Files and versions" → "Add file":
   
  Entire audio/ folder (drag and drop)
 
-**Launch Your App:**
+3.**Launch Your App:**
 
 Hugging Face will automatically build and deploy your app.
 
@@ -145,7 +145,7 @@ Monitor progress in the Logs tab.
 
 
 
-**USAGE GUIDE-**
+***USAGE GUIDE-***
 Enter a company name via text input to fetch relevant news articles.
 
 
