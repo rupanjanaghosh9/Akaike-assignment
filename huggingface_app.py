@@ -11,6 +11,8 @@ df_sentiment["Summary_Audio"] = [f"audio/Summary_{i+1}.mp3" for i in range(len(d
 df_comparative = pd.read_csv("Starlink_news_comparative_sentiment.csv")
 
 
+company_name = st.text_input("🔍 Enter a company name to filter articles", "Starlink")
+
 # Configure Streamlit page
 st.set_page_config(layout="wide")
 st.title("Starlink News Articles with Audio Summaries and sentiment comparison")
