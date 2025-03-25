@@ -111,15 +111,19 @@ Step-by-Step Deployment
 -Go to Hugging Face Spaces
 -Click Create new Space
 
-Configure:
+**Configure:**
 
 *Name: rupanjana_assignment*
+
 *SDK: Select Streamlit*
+
 *Hardware: Free CPU (upgrade if needed)*
+
 *Visibility: Public*
 
-Upload Files:
+**Upload files:**
 Method: Web Interface
+
 Go to your Space → "Files and versions" → "Add file":
 
  app.py
@@ -133,11 +137,15 @@ Go to your Space → "Files and versions" → "Add file":
   
  Entire audio/ folder (drag and drop)
 
-Launch Your App:
+**Launch Your App:**
+
 Hugging Face will automatically build and deploy your app.
+
 Monitor progress in the Logs tab.
 
-USAGE GUIDE-
+
+
+**USAGE GUIDE-**
 Enter a company name via text input to fetch relevant news articles.
 
 
