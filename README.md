@@ -1,4 +1,13 @@
 # Akaike-assignment
+A web application that analyzes sentiment in Starlink news articles, generates Hindi audio analysis, and provides comparative sentiment insights.
+##  Features
+
+- **Sentiment Analysis**: VADER-based sentiment scoring for news titles and summaries
+- **Audio Summaries**: Hindi TTS conversion of English articles
+- **Comparative Analysis**: Title vs. summary sentiment comparison
+- **Interactive Querying**: Filter articles by company name or sentiment
+- **Data Export**: Download analysis results as CSV
+
 # **Project Documentation**
 
 ## **1. Project Setup**
@@ -57,8 +66,7 @@ The project provides API endpoints for accessing processed news, sentiment score
 | Endpoint                     | Method | Description |
 |-----------------------------|--------|-------------|
 | `/`                          | GET    | API Home Page |
-| `/sentiment_cleaned`         | GET    | Returns sentiment analysis results along with news 
-                                          title , summary |
+| `/sentiment_cleaned`         | GET    | Returns sentiment analysis results along with news ,title , summary |
 | `/comparative_sentiment`     | GET    | Returns comparative sentiment analysis results |
 | `/comparative_scores`        | GET    | Returns comparative sentiment score analysis |
 
@@ -95,6 +103,39 @@ python api.py
 - **Google News RSS:** Used for extracting latest news articles dynamically.
 - **Google Translator API:** Integrated into the text-to-speech function to ensure Hindi output.
 - **gTTS API:** Used for generating Hindi speech files.
+
+###*Deployment on hugging face:**
+Step-by-Step Deployment
+1.Create a New Space:
+-Go to Hugging Face Spaces
+-Click Create new Space
+
+Configure:
+Name: rupanjana_assignment
+SDK: Select Streamlit
+Hardware: Free CPU (upgrade if needed)
+Visibility: Public/Private
+
+Upload Files:
+Method: Web Interface
+
+Go to your Space → "Files and versions" → "Add file"
+
+-app.py
+-main.py
+-requirements.txt
+- CSV files: Starlink_news_comparative_scores.csv,Starlink_news_comparative_sentiment.csv,Starlink_news_comparative_sentiment_analysis.csv,
+  Starlink_news_with_sentiment_cleaned.csv
+-Entire audio/ folder (drag and drop)
+
+Launch Your App:
+Hugging Face will automatically build and deploy your app.
+Monitor progress in the Logs tab.
+
+USAGE GUIDE-
+Enter a company name via text input to fetch relevant news articles.
+
+
 
 ---
 **Assumptions:
@@ -146,7 +187,7 @@ Internet Dependency:
 The project relies on third-party APIs (Google News RSS, Google Translator, and gTTS), which require an active internet connection. Any downtime or rate limits on these services may affect functionality.
 
 ## **Conclusion**
-This project provides a **web-based AI-driven sentiment analysis tool** that extracts news, performs sentiment evaluation, generates comparative insights, and offers Hindi text-to-speech conversion. APIs allow external systems to interact with the data efficiently.
+This project provides a **web-based sentiment analysis tool** that extracts news, performs sentiment evaluation, generates comparative insights, and offers Hindi text-to-speech conversion. APIs allow external systems to interact with the data efficiently.
 
 **End of Documentation.**
 
