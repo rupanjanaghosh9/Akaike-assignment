@@ -104,7 +104,7 @@ python api.py
 
 
 
-###**Deployment on hugging face:**
+###**Deployment on hugging face:**###
 Step-by-Step Deployment
 
 1.Create a New Space:
