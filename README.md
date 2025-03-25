@@ -95,14 +95,14 @@ python api.py
 ### **APIs Used:**
 | API                        | Purpose |
 |---------------------------|----------|
-| **Google News RSS**        | Fetches latest news articles |
 | **Google Translator API**  | Converts text from English to Hindi |
 | **gTTS (Google TTS API)**  | Converts Hindi text into speech |
 
 ### **Integration Details:**
-- **Google News RSS:** Used for extracting latest news articles dynamically.
 - **Google Translator API:** Integrated into the text-to-speech function to ensure Hindi output.
 - **gTTS API:** Used for generating Hindi speech files.
+
+
 
 ###*Deployment on hugging face:**
 Step-by-Step Deployment
@@ -114,13 +114,11 @@ Configure:
 Name: rupanjana_assignment
 SDK: Select Streamlit
 Hardware: Free CPU (upgrade if needed)
-Visibility: Public/Private
+Visibility: Public
 
 Upload Files:
 Method: Web Interface
-
-Go to your Space → "Files and versions" → "Add file"
-
+Go to your Space → "Files and versions" → "Add file":
 -app.py
 -main.py
 -requirements.txt
