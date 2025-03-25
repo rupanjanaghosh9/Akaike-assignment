@@ -1,4 +1,4 @@
-# Akaike-assignment
+# Akaike-assignment - starlink
 A web application that analyzes sentiment in Starlink news articles, generates Hindi audio analysis, and provides comparative sentiment insights.
 ##  Features
 
