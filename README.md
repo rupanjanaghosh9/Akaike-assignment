@@ -122,20 +122,19 @@ Step-by-Step Deployment
 *Visibility: Public*
 
 2.**Upload files:**
-Method: Web Interface
 
 Go to your Space → "Files and versions" → "Add file":
 
- app.py
+ ~app.py
  
- main.py
+ ~main.py
  
- requirements.txt
+ ~requirements.txt
  
- CSV files: Starlink_news_comparative_scores.csv,Starlink_news_comparative_sentiment.csv,Starlink_news_comparative_sentiment_analysis.csv,
+ ~CSV files: Starlink_news_comparative_scores.csv,Starlink_news_comparative_sentiment.csv,Starlink_news_comparative_sentiment_analysis.csv,
   Starlink_news_with_sentiment_cleaned.csv
   
- Entire audio/ folder (drag and drop)
+ ~Entire audio/ folder (drag and drop)
 
 3.**Launch Your App:**
 
