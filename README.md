@@ -141,7 +141,7 @@ Hugging Face will automatically build and deploy your app.
 
 Monitor progress in the Logs tab.
 
-
+---
 
 ***USAGE GUIDE:
 Enter a company name via text input to fetch relevant news articles.***
