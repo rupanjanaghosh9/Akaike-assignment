@@ -143,8 +143,8 @@ Monitor progress in the Logs tab.
 
 
 
-***USAGE GUIDE-***
-Enter a company name via text input to fetch relevant news articles.
+***USAGE GUIDE:
+Enter a company name via text input to fetch relevant news articles.***
 
 
 
