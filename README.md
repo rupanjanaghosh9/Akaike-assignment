@@ -112,20 +112,22 @@ Step-by-Step Deployment
 -Click Create new Space
 
 Configure:
-Name: rupanjana_assignment
-SDK: Select Streamlit
-Hardware: Free CPU (upgrade if needed)
-Visibility: Public
+
+*Name: rupanjana_assignment*
+*SDK: Select Streamlit*
+*Hardware: Free CPU (upgrade if needed)*
+*Visibility: Public*
 
 Upload Files:
 Method: Web Interface
 Go to your Space → "Files and versions" → "Add file":
--app.py
--main.py
--requirements.txt
-- CSV files: Starlink_news_comparative_scores.csv,Starlink_news_comparative_sentiment.csv,Starlink_news_comparative_sentiment_analysis.csv,
+
+ app.py
+ main.py
+ requirements.txt
+ CSV files: Starlink_news_comparative_scores.csv,Starlink_news_comparative_sentiment.csv,Starlink_news_comparative_sentiment_analysis.csv,
   Starlink_news_with_sentiment_cleaned.csv
--Entire audio/ folder (drag and drop)
+ Entire audio/ folder (drag and drop)
 
 Launch Your App:
 Hugging Face will automatically build and deploy your app.
