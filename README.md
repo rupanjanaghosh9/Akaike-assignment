@@ -106,7 +106,7 @@ python api.py
 ---
 ### **Deployment on hugging face:**
 
-1.Create a New Space:
+**1.Create a New Space:**
 -Go to Hugging Face Spaces
 -Click Create new Space
 
@@ -120,7 +120,7 @@ python api.py
 
 *Visibility: Public*
 
-2.**Upload files:**
+**2.Upload files:**
 
 Go to your Space → "Files and versions" → "Add file":
 
@@ -135,7 +135,7 @@ Go to your Space → "Files and versions" → "Add file":
   
  ~Entire audio/ folder (drag and drop)
 
-3.**Launch Your App:**
+**3.Launch Your App:**
 
 Hugging Face will automatically build and deploy your app.
 
@@ -152,7 +152,7 @@ Enter a company name via text input to fetch relevant news articles.
 **Assumptions:
 News Source Reliability:
 
-The project assumes that the news articles fetched from Google News RSS are reliable and up-to-date.
+The project assumes that the news articles fetched from Google  are reliable and up-to-date.
 
 It assumes that the articles are in English and can be processed for summarization and sentiment analysis.
 
